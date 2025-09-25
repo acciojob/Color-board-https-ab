@@ -1,8 +1,8 @@
 //your JS code here. If required.
-let board = document.getElementById("board");
+let board = document.querySelector(".container");
 
 for (let i = 0; i < 800; i++) {
-	let box = document.createElement("div");
-	box.classList.add("box");
-	board.appendChild(box);
+	let square = document.createElement("div");
+	square.classList.add("square");
+	board.appendChild(square);
 }
