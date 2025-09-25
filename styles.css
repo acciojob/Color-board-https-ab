@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+.board {
+	display: grid;
+	gap: 2px;
+	grid-template-columns: repeat(40, 1fr);
+	grid-template-rows: repeat(25, 1fr)
+}
+
+.box {
+	background-color: gray;
+	height: 20px;
+	width: 20px;
+}
+
+.box:hover {
+	background-color: #6bff76;
+}
