@@ -17,8 +17,6 @@ body {
 	background-color: gray;
 	height: 20px;
 	width: 20px;
+	transition: background-color 1s ease;
 }
 
-.square:hover {
-	background-color: #6bff76;
-}
